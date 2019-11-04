@@ -1,0 +1,227 @@
+/* Start the Body Section */
+*{
+margin:0;
+padding:0;
+}
+
+
+body {
+width: 100%;
+font-size: 24px;     
+}
+/* End the Body Section */
+
+
+
+/* Start the Logo Section */
+.logo{
+background-color:gray;
+overflow: hidden;
+margin:0;
+padding:0;
+}      
+
+.logo-text{
+
+    float: left;
+    margin: 0;
+    padding:0;
+}
+.images-header{
+
+    background-image: url('../img/img-head.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    margin-top:20px;
+    height: 650px;
+
+}
+/* End the Logo Section*/
+
+
+       
+/* Start the list sections */
+  a {
+text-decoration: none;
+}
+      
+li {
+list-style: none;
+padding: 10px;
+margin: 10px;
+}
+      
+.active {
+font-size: 1.5rem;
+color: green;
+}
+      
+.created {
+display: flex;
+justify-content:flex-end;
+}
+/* End the list sections */
+
+/* Start the About me department */
+
+.about-title{
+
+    background-color:gray;
+    height: 70px;
+    text-align: center;
+
+}
+
+.about-text{
+
+    float: left;
+}
+
+
+.img-self{
+
+    float: right;
+}
+
+/* end the About me department */
+
+
+
+/* Section Design */
+
+.section{
+
+    padding:10px;
+    margin:10px;
+    overflow: hidden;
+}
+
+/* end Section Design */
+
+/* Start Services Design */
+
+
+
+.services{
+
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+   
+    margin-top:15px;
+    text-align: center;
+}
+
+.info img{
+
+    border-radius: 10px;
+}
+
+/*  Services Design */
+
+
+/* Start Projects Design */
+
+.projects{
+
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    margin-top:15px;
+    text-align: center;
+    
+  
+}
+
+.imgs img{
+
+    border-radius: 10px;
+}
+
+/*  End Projects Design */
+
+
+
+/* Start Send me Section Design */
+
+.send{
+
+background-color:gray;
+height: 70px;
+text-align: center;
+    
+}
+    
+.contact{
+
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    margin-top:15px;
+    width: 100%;
+    background-image: url("../img/aerial-architecture-black-and-white-700974.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    
+    
+}  
+
+form{
+
+    float: left;
+    padding:15px;
+ 
+}
+
+input{
+
+    width:600px;
+    padding:15px;
+    margin:5px;
+}
+
+textarea{
+
+    padding:15px;
+    margin:5px;
+
+}
+
+.contact-img img{
+
+
+    float: right;
+
+   
+    
+}
+
+
+.button{
+
+    padding: 15px;
+    width:120px;
+}
+
+/*  End Projects Design */
+
+/*  footer */
+
+.footer{
+
+    background-color: gray;
+    color:#fff;
+    text-align:center;
+    height: 90px;
+    width:100%;
+
+}
+
+.edit-txt{
+
+    margin-bottom:-5px;
+}
+
+/* End  footer */
